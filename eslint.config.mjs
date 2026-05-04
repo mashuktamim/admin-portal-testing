@@ -13,6 +13,16 @@ export default antfu(
     },
   },
   {
+    ignores: [
+      "**/.gitignore",
+      "**/package-lock.json",
+      "**/package.json",
+      "**/.github/**",
+      "**/dist/**",
+      "**/node_modules/**",
+      "**/build/**",
+      "**/.husky/**",
+    ],
     rules: {
       "ts/no-redeclare": "off",
       "ts/consistent-type-definitions": ["error", "type"],

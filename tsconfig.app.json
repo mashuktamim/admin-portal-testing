@@ -5,7 +5,6 @@
     "jsx": "react-jsx",
     "lib": ["ES2023", "DOM"],
     "moduleDetection": "force",
-    "baseUrl": ".",
     "module": "esnext",
     /* Bundler mode */
     "moduleResolution": "bundler",
